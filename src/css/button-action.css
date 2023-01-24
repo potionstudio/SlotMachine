@@ -9,3 +9,8 @@
 #button.used .line {
     transform: rotate(-30deg);
 }
+
+/*
+ * If you want to unactivate button ==> add .unused
+ * If you want to activate button ==> add .used
+*/
