@@ -1,0 +1,11 @@
+#button.used {
+    opacity: 0.5;
+}
+
+#button.unused .line {
+    transform: rotate(-150deg);
+}
+
+#button.used .line {
+    transform: rotate(-30deg);
+}
