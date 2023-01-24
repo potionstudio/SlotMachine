@@ -1,6 +1,9 @@
 #button {
     aspect-ratio: 1/1;
     position: relative;
+
+    width: 30vw;
+    user-select: none;
 }
 
 #button .base {
