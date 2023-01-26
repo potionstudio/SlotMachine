@@ -1,7 +1,8 @@
 import { $ } from "./../lib/kuery";
-import * as Machine from "./machine";
+import { use_button } from "./machine";
+
 $("#button").add_click(() => {
-    Machine.default.use();
+    use_button();
 });
 
 console.log("App was started!");
