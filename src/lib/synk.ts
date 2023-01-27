@@ -43,14 +43,11 @@ export class Synk {
             doing();
         } else {
             setTimeout(doing, current.delay);
+            // using Promise can be another choice
         }
     }
 
     halt() {
         this.#is_halt = true;
-    }
-
-    reset() {
-        this.#is_halt = false;
     }
 }
