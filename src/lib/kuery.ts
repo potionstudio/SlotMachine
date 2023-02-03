@@ -31,7 +31,7 @@ export class KueryElement {
  * 3. 'none'`s style ==> display: none;
  */
 
-const none = document.createElement("div");
+const none: HTMLElement = document.createElement("div");
 
 export const $ = (query: string): KueryElement => {
     const element = document.querySelector(query);

@@ -1,0 +1,53 @@
+#machine {
+    border: 20px #6d4e42 solid;
+    background-color: white;
+    border-radius: 15px;
+    aspect-ratio: 2.5/1;
+
+    position: relative;
+
+    width: 40vw;
+    user-select: none;
+
+    margin: auto;
+}
+@media screen and (max-width: 800px) {
+    #machine {
+        width: 80%;
+    }
+}
+
+#machine .inner-frame {
+    width: 95%;
+    height: 90%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 12px;
+    background-color: rgb(70, 70, 70);
+
+    display: flex;
+    justify-content: space-around;
+}
+#machine .inner-frame .card {
+    width: 20%;
+    height: 80%;
+
+    background-color: white;
+
+    border-radius: 7px;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    text-align: center;
+    font-family: Consolas;
+
+    overflow: hidden;
+
+    transition-duration: 20ms;
+}
